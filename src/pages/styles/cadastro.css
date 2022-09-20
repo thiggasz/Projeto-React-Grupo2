@@ -1,0 +1,22 @@
+.botaocad1{
+    position: absolute;
+    left:20%;
+    top:30%;
+  }
+.botaocad2{
+    position: absolute;
+    left:60%;
+    top:30%;
+  }
+.caixas{
+    width: 200px;
+    height: 25px;
+    border-radius: 15%;
+  }
+.titulocad{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    text-align:center;
+    font-weight: bold;
+}

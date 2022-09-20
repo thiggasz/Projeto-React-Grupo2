@@ -1,0 +1,25 @@
+.botaoinc{
+    position: absolute;
+    left:20%;
+    top:70%;
+  }
+  .tituloinc{
+    font-size: 30px;
+    color:black;
+    text-align:center;
+    font-weight: bold;
+    width: 40%;
+    padding:3% 3% 0% 10%;
+  }
+  .corpo{
+    font-size: 20px;
+    color:black;
+    text-align: justify;
+    width: 40%;
+    padding:3% 10%;
+  }
+  .imghome{
+    position:absolute;
+    right:0%;
+    top:14%
+  }
