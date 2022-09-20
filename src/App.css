@@ -6,9 +6,12 @@
 .topo{
   padding: 1% 2%;
   background-color: rgb(113, 209, 209);
-  color:white;
   font-size:50px;
   font-weight: bold;
+}
+.topo a{
+  text-decoration: none;
+  color:white;
 }
 .titulo{
   font-size: 30px;
@@ -26,15 +29,18 @@
   padding:3% 10%;
 }
 .botao{
-  width: 250px;
-  height: 70px;
+  width: 240px;
+  height: 60px;
   font-size:20px;
-  background-color:rgb(113, 209, 209);
-  color:white;
+  background-color:white;
+  color: black;
   border-radius: 40px;
-  border:none;
+  border:3px solid black;
   font-weight: bold;
   position: absolute;
+  left:80%;
+  top:3%;
+
 }
 .topo{
   padding: 1% 2%;
@@ -43,9 +49,20 @@
   font-size:50px;
   font-weight: bold;
 }
+.topopre{
+  color:black;
+}
 .rodape{
   background-color: rgb(113, 209, 209);
   position: absolute;
   bottom: 0%;
   height: 70px;
+}
+.img{
+  position:absolute;
+  right:0%;
+  top:14%
+}
+.imgcab{
+  width:70px;
 }
