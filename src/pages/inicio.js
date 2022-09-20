@@ -9,7 +9,7 @@ export default function Home(){
             <div className='corpo'>Nosso objetivo aqui é tornar a sua experiência cada vez mais fácil. Pensando nisso, deselvovemos
                 um sistema que permite o cadastro de animais e espécies, permitindo uma admnistração cada vez melhor
                 do seus pacientes. Aperter no botão ao lado e comece a utilizar agora mesmo!
-                <img src={ImgInicio} className='imghome' height={565} alt="Cachorro"></img>
+                <img src={ImgInicio} className='imghome' height={566} alt="Cachorro"></img>
             </div>
             <div className='botaoinc'>
                 <a href="./cadastro"><button className='botao' type='button'>Cadastrar</button></a>

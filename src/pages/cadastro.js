@@ -5,9 +5,9 @@ export default function Register(){
     return(
         <React.Fragment>
             <div className='titulocad' >O que deseja cadastrar?</div>
-
             <div className='botaocad1'><button className='botao' type='button'>Espécies</button></div>
             <div className='botaocad2'><button className='botao' type='button'>Animais</button></div>
+            <input type='text' name='Nome' className='caixas'></input>
         </React.Fragment>
     )
 }

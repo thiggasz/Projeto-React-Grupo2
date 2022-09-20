@@ -8,14 +8,17 @@ import Cabecalho from './pages/cabecalho';
 
 function App() {
   return (
-    <><Cabecalho></Cabecalho>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/cadastro" element={<Register />} />
-        <Route path="/gerenciamento" element={<Management />} />
-      </Routes>
-    </BrowserRouter></>
+    <React.Fragment>
+    <Cabecalho></Cabecalho>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/cadastro" element={<Register />} />
+          <Route path="/gerenciamento" element={<Management />} />
+        </Routes>
+      </BrowserRouter>
+      </React.Fragment>
+      
 
   );
 }

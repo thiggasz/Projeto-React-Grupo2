@@ -1,3 +1,30 @@
+.home{
+  position:absolute;
+  right:0%;
+  top:14%
+} 
+.topo{
+  padding: 1% 2%;
+  background-color: rgb(113, 209, 209);
+  color:white;
+  font-size:50px;
+  font-weight: bold;
+}
+.titulo{
+  font-size: 30px;
+  color:black;
+  text-align:center;
+  font-weight: bold;
+  width: 40%;
+  padding:3% 3% 0% 10%;
+}
+.corpo{
+  font-size: 20px;
+  color:black;
+  text-align: justify;
+  width: 40%;
+  padding:3% 10%;
+}
 .botao{
   width: 250px;
   height: 70px;
@@ -15,4 +42,10 @@
   color:white;
   font-size:50px;
   font-weight: bold;
+}
+.rodape{
+  background-color: rgb(113, 209, 209);
+  position: absolute;
+  bottom: 0%;
+  height: 70px;
 }
