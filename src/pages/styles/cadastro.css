@@ -1,22 +1,36 @@
-.botaocad1{
+.botaocad{
     position: absolute;
-    left:20%;
-    top:30%;
-  }
-.botaocad2{
-    position: absolute;
-    left:60%;
-    top:30%;
+    right:30%;
+    top:70%;
   }
 .caixas{
     width: 200px;
     height: 25px;
     border-radius: 10%;
+    border:3px solid rgb(113, 209, 209);
   }
 .titulocad{
     text-align: center;
     font-size: 30px;
     color:black;
     text-align:center;
+    font-weight: bold;
+}
+
+.alinhamentocad{
+    display: flex;
+    flex-direction: column;
+}
+.formulario{
+    border: 4px solid rgb(113, 209, 209);
+    width: 50%;
+    margin:30px;
+    padding: 20px;
+    display:block;
+    justify-content: space-between;
+}
+.cabform{
+    background-color: rgb(113, 209, 209);
+    border:2px solid black;
     font-weight: bold;
 }
