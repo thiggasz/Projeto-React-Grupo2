@@ -5,10 +5,13 @@ import EstIni from './styles/inicio.css'
 export default function Home(){
     return( 
         <React.Fragment>
-            <div className='tituloinc'>Bem vindo ao meupet!</div>
-            <div className='corpo'>Nosso objetivo aqui é tornar a sua experiência cada vez mais fácil. Pensando nisso, deselvovemos
-                um sistema que permite o cadastro de animais e espécies, permitindo uma admnistração cada vez melhor
-                do seus pacientes. Aperter no botão ao lado e comece a utilizar agora mesmo!
+            <div className='tituloinc'>Bem vindo ao MeuPet!</div>
+            <div className='corpo'>Nosso objetivo é tornar a sua experiência cada vez mais fácil. Pensando nisso, o MeuPet foi 
+                desenvolvido para facilitar o gerenciamento da sua clínica veterinária, contando com funções que
+                permitem o cadastro de animais e espécies, entre outras que visam facilitar a organização das consultas. 
+                Uma admnistração cada vez melhor para o melhor dos seus pacientes.
+
+                Aperte no botão ao lado para começar a utilizar o MeuPet!
                 <img src={ImgInicio} className='img' height={566} alt="Cachorro"></img>
             </div>
             <div>
