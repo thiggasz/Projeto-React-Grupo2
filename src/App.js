@@ -5,21 +5,21 @@ import Home from './pages/inicio'
 import Register from './pages/cadastro';
 import Management from './pages/gerenciamento';
 import Cabecalho from './pages/cabecalho';
+import Rodape from './pages/rodape';
 
 function App() {
   return (
     <React.Fragment>
-    <Cabecalho></Cabecalho>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/cadastro" element={<Register />} />
-          <Route path="/gerenciamento" element={<Management />} />
-        </Routes>
-      </BrowserRouter>
+      <Cabecalho></Cabecalho>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/cadastro" element={<Register />} />
+            <Route path="/gerenciamento" element={<Management />} />
+          </Routes>
+        </BrowserRouter>
+        <Rodape></Rodape>
       </React.Fragment>
-      
-
   );
 }
 

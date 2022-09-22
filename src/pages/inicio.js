@@ -11,9 +11,9 @@ export default function Home(){
                 permitem o cadastro de animais e espécies, entre outras que visam facilitar a organização das consultas. 
                 Uma admnistração cada vez melhor para o melhor dos seus pacientes.
 
-                Aperte no botão ao lado para começar a utilizar o MeuPet!
-                <img src={ImgInicio} className='img' height={566} alt="Cachorro"></img>
+                Aperte no botão "Cadastrar" para começar a utilizar o MeuPet!
             </div>
+            <img src={ImgInicio} className='img' height={480} alt="Cachorro"></img>
             <div>
                 <a href="./cadastro"><button className='botao' type='button'>Cadastrar</button></a>
             </div>
