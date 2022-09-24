@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './styles/login.css';
 import ImgLogo from './logo.png';
+import Management from './gerenciamento'
 
 
 export default function Login() {
@@ -12,7 +13,8 @@ export default function Login() {
             <div className='container'>
                 <div className='container-login'>
                     <div className='wrap-login'>
-                        <form className='login-form'>
+                        <form action = './gerenciamento' className='login-form'>
+                            
                             <span className='title-login'> Seja bem vindo!</span>
                             <span className='title-login'><a href='./'><img src={ImgLogo}></img></a></span>
 
@@ -32,7 +34,7 @@ export default function Login() {
                             </div>
 
                             <div className='container-login-form-btn'>
-                                <button type= 'submit' className='login-form-btn'> Login
+                                <button type= 'submit' className='login-form-btn'>Login 
                                 </button> 
                             </div>
 
