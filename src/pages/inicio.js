@@ -1,21 +1,34 @@
 import React from 'react'
-import ImgInicio from './inicio.png'
-import EstIni from './styles/inicio.css'
+import ImgLogo from './logo.png';
+import ImgInicial from './inicio.png';
+import ImgRodape from './rodape.png';
 
-export default function Home(){
-    return( 
+
+export default function Home() {
+    return (
         <React.Fragment>
-            <div className='tituloinc'>Bem vindo ao MeuPet!</div>
-            <div className='corpo'>Nosso objetivo é tornar a sua experiência cada vez mais fácil. Pensando nisso, o MeuPet foi 
-                desenvolvido para facilitar o gerenciamento da sua clínica veterinária, contando com funções que
-                permitem o cadastro de animais e espécies, entre outras que visam facilitar a organização das consultas. 
-                Uma admnistração cada vez melhor para o melhor dos seus pacientes.
-
-                Aperte no botão "Cadastrar" para começar a utilizar o MeuPet!
+            <div className='header'>
+                <img src={ImgLogo} className='img-logo' height={100} alt="meupet logo"></img>
+                <div className='buttons'>
+                    <div className='button'><a href="./cadastro">Entrar</a></div>
+                </div>
             </div>
-            <img src={ImgInicio} className='img' height={480} alt="Cachorro"></img>
+            <div className='lateral'>
+                <img src={ImgInicial} className='img' height={500}></img>
+            </div>
+            <div className='corpo'>
+                <h1>Bem vindo ao MeuPet!</h1>
+                <p>Nosso objetivo é tornar a sua experiência cada vez mais fácil. Pensando nisso, o <b>MeuPet</b> foi
+                    desenvolvido para facilitar o gerenciamento da sua clínica veterinária, contando com funções que
+                    permitem o cadastro de animais e espécies, entre outras que visam facilitar a organização das consultas.
+                    Uma administração cada vez melhor para o melhor dos seus pacientes.
+
+                    Aperte no botão <b>Entrar</b> para começar a utilizar o MeuPet!</p>
+                
+            </div>
+            <img src={ImgRodape} className='img-rodape' height={200}></img>
             <div>
-                <a href="./cadastro"><button className='botao' type='button'>Cadastrar</button></a>
+                
             </div>
         </React.Fragment>
     )
