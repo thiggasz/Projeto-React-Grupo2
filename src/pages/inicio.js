@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ImgLogo from './logo.png';
 import ImgInicial from './inicio.png';
 import ImgRodape from './rodape.png';
@@ -10,7 +10,7 @@ export default function Home() {
             <div className='header'>
                 <img src={ImgLogo} className='img-logo' height={100} alt="meupet logo"></img>
                 <div className='buttons'>
-                    <div className='button'><a href="./cadastro">Entrar</a></div>
+                    <div className='button'><a href="./login">Entrar</a></div>
                 </div>
             </div>
             <div className='lateral'>
