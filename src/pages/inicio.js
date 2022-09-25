@@ -2,6 +2,7 @@ import React from 'react';
 import ImgLogo from './logo.png';
 import ImgInicial from './inicio.png';
 import ImgRodape from './rodape.png';
+import './styles/inicio.css';
 
 
 export default function Home() {

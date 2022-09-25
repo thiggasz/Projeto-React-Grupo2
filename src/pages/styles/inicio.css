@@ -6,8 +6,10 @@
 }
 .img {
   margin: 0;
-  width: 600px;
-  height: auto;
+  width: 500px ;
+  height:550px;
+  display: flex;
+  align-items: center;
 }
 .header {
   background-color: var(--principal-color);
@@ -16,7 +18,8 @@
   width: auto;
   
 }
-a {
+.buttons a {
+  text-decoration: none;
   color: black;
   background-color:white;
   border-radius: 20px;
@@ -37,18 +40,18 @@ a {
   font-size:30px;
   display: flex;
   float: right;
-  margin-right: 100px;
+  margin-right: 50px;
 }
 
 
 .lateral {
   display: flex;
-  flex-direction: column;
   align-items: center;
   float: right;
-  width: 600px;
-  height: 709px;
+  width: 500px;
+  height: auto;
   background-color: var(--principal-color);
+  border-bottom: 0px;
 }
 .corpo {
   width: 60%;
@@ -57,13 +60,23 @@ a {
 .corpo h1 {
   font: 600 5rem 'Montserrat', sans-serif;
   color: black;
-  padding:  30px;
-  font-size: 50px;
+  padding:  10px;
+  font-size: 40px;
   text-align: center;
 }
 .corpo p{
-  font: 100 1rem 'Montserrat', sans-serif;
-  font-size: 28px;
+  font: 400 1rem 'Montserrat', sans-serif;
+  font-size: 20px;
   text-align: center;
   width:;
+}
+.corpo img {
+  align-items: center;
+}
+
+.img-rodape {
+  width: 600px;
+  height: auto;
+  margin-left: 80px;
+
 }
