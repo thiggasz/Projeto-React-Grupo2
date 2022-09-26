@@ -1,5 +1,5 @@
 import React from 'react';
-import ImgLogo from './logo.png';
+import ImgLogo from './images/logo.png';
 import './styles/gerenciamento.css';
 
 export default function Management() {

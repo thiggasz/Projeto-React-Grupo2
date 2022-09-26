@@ -1,6 +1,6 @@
 import React from 'react'
-import ImgCad from './aifolou.png'
-import ImgLogo from './logo.png'
+import ImgCad from './images/aifolou.png'
+import ImgLogo from './images/logo.png'
 import './styles/cadastro.css'
 
 export default function Register() {

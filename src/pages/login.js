@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './styles/login.css';
-import ImgLogo from './logo.png';
+import ImgLogo from './images/logo.png';
 
 
 
