@@ -65,9 +65,9 @@ export default function Register() {
                         </div>
                         <div className='alinhamentocad'>
                             <label for='Hora'>Horário da consulta:</label>
-                            <input type='hora' name='Horário' id='Horário' className='caixas' required></input>
+                            <input type='time' name='Horário' id='Horário' className='caixas' required></input>
                         </div>
-                        <button type='submit' name='Envio' className='envio'></button>
+                        <button type='submit'  className='envio'> Enviar</button>
                     </div>
 
                 </form>
