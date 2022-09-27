@@ -20,26 +20,26 @@ export default function Management() {
                         <h1><span id='hora'>09:00</span> - <span id='racas'>Poodle</span></h1>
                         <h2><span id='nome-pet'>Belinha</span> - <span id='idade'>2 anos</span></h2>
                         <p><b>Status:</b> <span id='status'> Cinomose</span></p>
-                        <button className='vermais-btn'>Ver mais</button>
+                        <button className='vermais-btn'><a href='/consulta'>Ver mais</a></button>
                     </div>
                     <div id='card-2' className='card-consulta'>
                         <h1><span id='hora'>11:00</span> - <span id='racas'>Maltês</span></h1>
                         <h2><span id='nome-pet'>Carlinhos</span> - <span id='idade'>5 anos</span></h2>
                         <p><b>Status: </b><span id='status'> Check Up</span></p>
-                        <button className='vermais-btn'>Ver mais</button>
+                        <button className='vermais-btn'><a href='/consulta'>Ver mais</a></button>
                     </div>
 
                     <div id='card-3' className='card-consulta'>
                         <h1><span id='hora'>15:30</span> - <span id='racas'>Pinscher</span></h1>
                         <h2><span id='nome-pet'>Shelby</span> - <span id='idade'>1 ano</span></h2>
                         <p><b>Status:</b> <span id='status'> Ansiedade canina</span></p>
-                        <button className='vermais-btn'>Ver mais</button>
+                        <button className='vermais-btn'><a href='/consulta'>Ver mais</a></button>
                     </div>
                     <div id='card-4' className='card-consulta'>
                         <h1><span id='hora'>17:00</span> - <span id='racas'>Calopsita</span></h1>
                         <h2><span id='nome-pet'>Greta</span> - <span id='idade'>8 meses</span></h2>
                         <p><b>Status: </b><span id='status'> Pata quebrada</span></p>
-                        <button className='vermais-btn'>Ver mais</button>
+                        <button className='vermais-btn'><a href='/consulta'>Ver mais</a></button>
                     </div>
 
                 </div>
