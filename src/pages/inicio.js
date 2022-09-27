@@ -1,7 +1,7 @@
 import React from 'react';
-import ImgLogo from './logo.png';
-import ImgInicial from './inicio.png';
-import ImgRodape from './rodape.png';
+import ImgLogo from './images/logo.png';
+import ImgInicial from './images/inicio.png';
+import ImgRodape from './images/rodape.png';
 import './styles/inicio.css';
 
 
