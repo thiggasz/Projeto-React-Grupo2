@@ -56,7 +56,6 @@ export default function Register() {
     }
 
     function onSubmit(e) {
-        e.preventDefault()
         localStorage.setItem('paciente', paciente);
         localStorage.setItem('idade', idade);
         localStorage.setItem('peso', peso);
@@ -67,6 +66,41 @@ export default function Register() {
         localStorage.setItem('endereco', endereco);
         localStorage.setItem('telefone', telefone);
         localStorage.setItem('horario', horario);
+
+        
+        const animal = {
+            paciente: paciente,
+            idade: idade,
+            peso: peso,
+            status: status,
+            custo: custo,
+            dono: dono,
+            email: email,
+            endereco: endereco,
+            telefone: telefone,
+            horario: horario,
+        };
+
+        localStorage.removeItem('paciente', paciente);
+        localStorage.removeItem('idade', idade);
+        localStorage.removeItem('peso', peso);
+        localStorage.removeItem('status', status);
+        localStorage.removeItem('custo', custo);
+        localStorage.removeItem('dono', dono);
+        localStorage.removeItem('email', email);
+        localStorage.removeItem('endereco', endereco);
+        localStorage.removeItem('telefone', telefone);
+        localStorage.removeItem('horario', horario);
+
+        localStorage.setItem(paciente, JSON.stringify(animal));
+
+        const getPerson = localStorage.getItem("paciente");
+        console.log(getPerson);
+
+        const animalObject = JSON.parse(getPerson);
+        console.log(typeof animalObject);
+        console.log(animalObject.job);
+        
     }
 
  /* function getData() {
